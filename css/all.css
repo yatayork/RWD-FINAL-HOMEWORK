@@ -1,0 +1,86 @@
+.header{
+    display: flex;
+    max-width: 100%;
+    height: 420px;
+    background: rgba(0,0,0,0.75);
+    justify-content: space-between;
+    align-items: center;
+    background:no-repeat url(/assets/header_desktop.png);
+    position: relative;
+}
+
+.header .btn{
+    width: 100%;
+    display: flex;
+    background: rgba(0,0,0,0.75);
+    position: absolute;
+    top: 0;
+    width: 100%;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.btn .logo{
+    width: 200px;
+    height: 24px;
+    background: no-repeat url(/assets/logo_w@svg.svg);
+    text-indent: 101%;
+    white-space: nowrap;
+    overflow: hidden;
+    background-position-y: 16px;
+    background-position-x: 42px;
+    padding-bottom: 16px;
+    padding-top: 16px;
+}
+
+.btn nav{
+    display: flex;
+    margin-right: 3.3%;
+    justify-content: end;
+}
+
+.btn nav a{
+    color: #ffffff;
+    padding-top: 16px;
+    padding-bottom: 16px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.btn nav a:hover{
+    font-size: 20px;
+    background:#4f444463;
+    border-radius: 10%;
+    font-weight: bolder;
+    transition: 0.35s;
+}
+
+.special{
+    width: 480px;
+    color: #ffffff;
+    background: rgba(0,0,0,0.35);
+    text-align: center;
+    padding-left: 22px;
+    padding-right: 42px;
+    padding-top: 20px;
+    padding-bottom: 26px;
+    margin-left: 27.5%;
+    margin-right: 27.5%;
+
+}
+
+.special img{
+    margin-top: 5px;
+    width: 13px;
+    height: 16px;
+}
+
+
+
+
+
+
+
+
+
+
