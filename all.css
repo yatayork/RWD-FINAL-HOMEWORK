@@ -75,11 +75,104 @@
     height: 16px;
 }
 
+.footer{
+    max-width: 100%;
+    color: #3D1101;
+}
+
+.footer ul{
+
+    display: flex;
+    margin-left: 43px;
+}
+
+.footer li{
+    width: 29.19%;
+}
 
 
+.footer .about p{
+    white-space: pre-line;
+    width: 100%;
+    padding-bottom: 50px;
+}
+
+.footer h5{
+
+    text-align: left;
+    margin-top: 50px;
+    margin-bottom: 16px;
+}
+
+.footer .contact{
+    display: block;
+    width: 100%
+}
+
+.footer .contact li{
+    list-style-type: disc;
+    list-style-position: inside;
+    width: 100%;
+    margin-left: -43px;
+}
+
+.footer .contact a{
+    margin-left: -12px;
+}
+
+.footer .contact a:hover{
+    color: orange;
+}
 
 
+.footer .blog_links{
+    position: relative;
+    width: 46%;
+}
 
+.blog_links img{
+    position: absolute;
+    right: 42px;
+    top: 50px;
+}
+
+.blog_links a{
+    width: 31px;
+    height: 36px;
+    background-size: 31 36;
+
+}
+
+.blog_links .G{
+    position: absolute;
+    top: 125px;
+    right: 127px;
+    background:no-repeat url(/assets/square-google-plus.svg);
+    text-indent: 101%;
+    overflow: hidden;
+}
+
+.blog_links .X{
+    position: absolute;
+    top: 125px;
+    right: 84px;
+    background:no-repeat url(/assets/square-twitter.svg);
+    text-indent: 101%;
+    overflow: hidden;
+}
+
+.blog_links .FB{
+    position: absolute;
+    top: 125px;
+    right: 42px;
+    background:no-repeat url(/assets/square-facebook.svg);
+    text-indent: 101%;
+    overflow: hidden;
+}
+
+.blog_links a:hover{
+    transform: scale(1.1);
+}
 
 
 
