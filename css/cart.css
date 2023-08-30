@@ -1,0 +1,195 @@
+.content{
+
+    display: flex;
+    margin-top: 48px;
+    max-width: 100%;
+}
+
+.wrap aside{
+    margin-left: 50px;
+    margin-right: 20px;
+    margin-top: 4px;
+    width: 21.48%;
+}
+
+
+.wrap aside h2{
+    margin-bottom: 16px;
+}
+
+.wrap aside  li{
+
+    border-bottom: 1px solid #3D1101;
+    width: 100%;
+}
+
+aside li a{
+    color: #3D1101;
+    display: inline-block;
+    line-height: 32px;
+    width: 100%;
+}
+
+aside a:hover{
+    background-color: #3D1101;
+    color: #EFE9E7;
+}
+
+
+.search_checkout{
+    width: 72.167%;
+}
+
+form{
+    display: flex;
+    width: 100%;
+    height: 32px;
+}
+
+input[type="search"]{
+    width: 92.17%;
+    height: 32px;
+    border: 2px solid #3d1101;
+}
+
+input[type="search"]:focus{
+    background-color: antiquewhite;
+}
+
+.search_checkout button[type="submit"]{
+    background: no-repeat url(/assets/magnifying-glass-solid.svg);
+    background-position: 7px 6px;
+    margin-left: -1px;
+    border: none;
+    width: 7.83%;
+    height: 32px;
+    background-color: #3d1101;
+}
+
+.search_checkout button[type="submit"]:hover{
+    background-color: rgba(47, 49, 8, 0.788);
+}
+
+
+.content .checkout{
+    color: #3d1101;
+    width: 13%;
+    height: 16px;
+    margin-left: 112px;
+    margin-top: 6.5px;
+    margin-bottom: 6.5px;
+    padding-right: 12px;
+}
+
+.checkout:hover{
+    transform: scale(1.1);
+    color: #FF5E45;
+}
+
+.cart{
+    background: no-repeat url(/assets/cart3D1101.svg);
+    text-indent: 101%;
+    overflow: hidden;
+    margin-right: 63px;
+    margin-left: 17px;
+}
+
+.cart:hover{
+    transform: scale(1.1);
+}
+
+.menu{
+    max-width: 100%;
+}
+
+.menu ul{
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 26px;
+}
+
+.menu li{
+    position: relative;
+    text-align: center;
+    margin-right: 20px;
+    margin-bottom: 30px;
+    width: 28.87%;
+    background: #EFE9E7;
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);   
+}
+
+.menu .tag-wrap{
+    position: absolute;
+    filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0));
+    top: -53px;
+    right: -52px;
+}
+
+.menu li .sellwell{
+    display: flex;
+    width: 90px;
+    height: 90px;
+    clip-path: polygon(25% 75%, 75% 75%, 100% 100%, 0% 100%);
+    background-color: #00CC99;
+    padding-bottom: 3px;
+    align-items: end;
+    font-size: 14px;
+    color: #ffffff;
+    text-indent: 17px;
+    transform: rotate(-315deg);
+}
+
+
+.menu li img{
+    width: 100%;
+    margin-bottom: 11px;
+}
+
+.menu h3{
+    font-size: 20px;
+    color: #3d1101;
+}
+
+.menu hr{
+    width: 91px;
+    border: 1px solid;
+    margin-bottom: 20px;
+}
+
+
+.menu p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 600;
+    color: #3D1101;
+}
+
+.menu button{
+    height: 28px;
+    margin-top: 13px;
+    border: 2px solid #FF5E45;
+    border-radius: 3px;
+    background: no-repeat url(/assets/cartFF5145.svg);
+    background-position-y: 6px;
+    background-position-x: 35px;
+    margin-bottom: 10px;
+}
+
+.menu button a{
+    color: #FF5E45;
+    padding-left: 49px;
+    padding-right: 49px;
+    padding-top: 6px;
+    padding-bottom: 5px;
+    font-weight: 600;
+}
+
+.menu button:hover{
+    background-color:black;
+    border-color: black;
+}
+
+.menu a:hover{
+    color: #EFE9E7;
+}
