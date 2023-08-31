@@ -1,0 +1,114 @@
+.content{
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    justify-content: center;
+}
+
+.content h3{
+    font-size: 20px;
+    font-weight: 900;
+    color: #3D1101;
+    margin-bottom: 35px;
+}
+
+.box{
+
+    width: 620px;
+    margin-bottom: 30px;
+
+}
+
+.box li{
+
+    display: flex;
+    justify-content: center;
+}
+
+.box form{
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    border-top:3px solid orange;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+.box form h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #3D1101;
+    text-align: center;
+}
+
+
+
+
+form  .input-container{
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+
+
+form a{
+    color: #ff5e45;
+}
+form a:hover{
+    color: blue;
+}
+
+form .icon {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+form label{
+    font-family: "MicrosoftJhengHei";
+    font-size: 16px;
+    color: #3D1101;
+}
+
+.register{
+    display: flex;
+    justify-content: space-between;
+}
+
+.register p{
+    width: 285px;
+}
+
+.register li{
+    display: block;
+}
+
+.register input[type="submit"]{
+    width: 125px;
+    height: 32px;
+    float: right;
+    margin-top: 30px;
+    margin-bottom: 15px;
+    background: #F56C23;
+    border-radius: 3px; 
+    border: none;
+    color: #ECECEC;
+
+}
+
+input[type="submit"]:hover {
+    background:#9d4414;
+}
+
+.register input[type="email"],.register input[type="password"]{
+    width: 285px;
+    height: 32px;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+    padding-left:  25px;
+}

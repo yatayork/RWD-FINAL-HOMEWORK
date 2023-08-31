@@ -1,6 +1,5 @@
 
 .content{
-    border: 1px solid;
     display: flex;
     width: 100%;
     margin: 0 auto;
@@ -53,7 +52,7 @@ form  .input-container{
 }
 
 
-form input{
+form input[type="email"],form input[type="password"]{
     width: 100%;
     height: 32px;
     border: 1px solid #CCCCCC;
@@ -82,22 +81,27 @@ form label{
 }
 
 .buttons {
+
     display: flex;
     margin-top: 30px;
     justify-content:space-between;
     margin-bottom: 15px;
+    font-size: 14px;
 }
 
 
 .buttons a{
+    align-items: center;
     text-align: center;
-    padding-top: 9px;
     padding-bottom: 9px;
     width: 46.296%;
+
 }
 
-.buttons .register{
+
+.buttons .register {
     background: rgba(0,0,0,0.35);
+    padding-top: 12px;
     border-radius: 3px;
     color: #ECECEC;
 }
@@ -106,12 +110,16 @@ form label{
     background: rgba(0,0,0,0.65);
 }
 
-.buttons .login{
-    background: #F56C23;
+.buttons input[type="submit"]{
+    width: 46.296%;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    background: #ff5e45;
+    border: none;
     border-radius: 3px;
     color: #ECECEC;
 }
 
-.login:hover{
+input[type="submit"]:hover{
     background:#9d4414  ;
 }
