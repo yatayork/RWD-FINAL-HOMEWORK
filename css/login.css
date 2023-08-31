@@ -1,52 +1,117 @@
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark, audio, video {
-    margin:0;
-    padding:0;
-    border: 0;
-    font-size: 100%;
-    font: inherit;
-    vertical-align: baseline;
-    text-decoration: none;
-    list-style-type: none;
 
-}
-article, aside, details, figcaption, figure,
-footer, header, hgroup, menu, nav, section {
-    display: block;
-
-}
-body {
-    line-height:1;
-
-}
-ol, ul {
-    list-style: none;
-
-}
-blockquote, q {
-    quotes: none;
-
-}
-blockquote:before, blockquote:after,
-q:before, q:after {
-    content: '';
-    content: none;
-
-}
-table {
-    border-collapse: collapse;
-    border-spacing: 0;
-
+.content{
+    border: 1px solid;
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding-top: 50px;
+    justify-content: center;
 }
 
+.content h3{
+    font-size: 20px;
+    font-weight: 900;
+    color: #3D1101;
+    margin-bottom: 35px;
+}
+
+.box{
+    width: 300px;
+}
+
+.box li{
+
+    display: flex;
+    justify-content: center;
+}
+
+.box form h4 {
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 15px;
+    margin-bottom: 16px;
+    font-size: 18px;
+    font-weight: 900;
+    color: #3D1101;
+    text-align: center;
+}
+
+.box form{
+    box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
+    width: 300px;
+    margin-bottom: 30px;
+    border-top:3px solid orange;
+    padding-left: 3%;
+    padding-right: 3%;
+}
+
+
+form  .input-container{
+    display: -ms-flexbox; /* IE10 */
+    display: flex;
+    width: 100%;
+    position: relative;
+}
+
+
+form input{
+    width: 100%;
+    height: 32px;
+    border: 1px solid #CCCCCC;
+    box-shadow: inset 0px 1px 0px 0px #ECECEC;
+    border-radius: 3px;
+    padding-left:  25px;
+}
+
+form a{
+    color: #ff5e45;
+}
+form a:hover{
+    color: blue;
+}
+
+form .icon {
+    position: absolute;
+    top: 10px;
+    left: 5px;
+}
+
+form label{
+    font-family: "MicrosoftJhengHei";
+    font-size: 16px;
+    color: #3D1101;
+}
+
+.buttons {
+    display: flex;
+    margin-top: 30px;
+    justify-content:space-between;
+    margin-bottom: 15px;
+}
+
+
+.buttons a{
+    text-align: center;
+    padding-top: 9px;
+    padding-bottom: 9px;
+    width: 46.296%;
+}
+
+.buttons .register{
+    background: rgba(0,0,0,0.35);
+    border-radius: 3px;
+    color: #ECECEC;
+}
+
+.register:hover{
+    background: rgba(0,0,0,0.65);
+}
+
+.buttons .login{
+    background: #F56C23;
+    border-radius: 3px;
+    color: #ECECEC;
+}
+
+.login:hover{
+    background:#9d4414  ;
+}

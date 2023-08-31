@@ -57,6 +57,7 @@ h1{
     margin-bottom: 16px;
 }
 
+
 .wrap{
     max-width: 1024px;
     height: auto;
@@ -90,7 +91,7 @@ h1{
 
 .btn .logo{
     width: 200px;
-    height: 24px;
+    height: 56px;
     background: no-repeat url(/assets/logo_w@svg.svg);
     text-indent: 101%;
     white-space: nowrap;
@@ -185,6 +186,7 @@ h1{
 }
 
 .footer .contact a{
+    color: #3D1101;
     margin-left: -12px;
 }
 
