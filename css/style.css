@@ -23,7 +23,7 @@ h2{
     position: absolute;
     content: "";
     border: 1px solid #3D1101;
-    width: 461px;
+    width: 45.019%;
     top: 502px;
     left: 27%;
 }
@@ -83,6 +83,12 @@ h4{
     margin-right: 7.519%;
     line-height: 120%;
     white-space: pre-line;
+}
+
+@media(max-width:890px){
+    .intro p{
+        white-space:normal;
+    }
 }
 
 .feelings{
@@ -155,8 +161,10 @@ h6{
 }
 
 .map form{
+    border: 1PX solid;
     margin-left: 20px;
-    max-width: 460px;
+    max-width: 100%;
+    margin-right: 11px;
 }
 
 .map input[type=text],input[type=tel], input[type=email],input[type=number]{
@@ -190,7 +198,6 @@ h6{
 
 .map input[type="reset"]{
     background-color: gray;
-    margin-left: 305px;
     margin-right: 11px;
 }
 
@@ -198,12 +205,25 @@ h6{
     background-color: orange ;
 }
 
-input[type="submit"]:hover,input[type="reset"]:hover{
-    transform: scale(1.1)
+.map .buttons{
+    display: flex;
+    justify-content: end;
+}
+
+@media(max-width:799px){
+    .map li img{
+        width: 90%;
+        height: 100%;
+    }
+
 }
 
 
 
+
+input[type="submit"]:hover,input[type="reset"]:hover{
+    transform: scale(1.1)
+}
 
 .map label{
     font-size: 14px;
