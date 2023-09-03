@@ -352,7 +352,7 @@ input:checked ~ .menu{
     }
 
     .footer li{
-        width: 100%;
+        width: 90%;
 
     }
     .footer .contact li{
@@ -364,6 +364,7 @@ input:checked ~ .menu{
     }
 
     .footer .about{
+
         width: 90%;
         padding-left: 20px;
 
@@ -386,8 +387,10 @@ input:checked ~ .menu{
 
     .footer .blog_links{
         width: 100%;
+        border: 1px solid;
         padding-left: 20px;
-    }
+    }   
+
 
     .blog_links img{
         right: 42px;
