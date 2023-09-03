@@ -295,6 +295,10 @@ input:checked ~ .menu{
     color: orange;
 }
 
+.footer .contact a:active{
+    color: orange;
+}
+
 
 .footer .blog_links{
     position: relative;
@@ -345,6 +349,11 @@ input:checked ~ .menu{
     transform: scale(1.1);
 }
 
+
+.blog_links  a:active{
+    transform: scale(1.1);
+}
+
 @media(max-width:700px){
     .footer ul{
         display: block;
@@ -387,7 +396,6 @@ input:checked ~ .menu{
 
     .footer .blog_links{
         width: 100%;
-        border: 1px solid;
         padding-left: 20px;
     }   
 

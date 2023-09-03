@@ -5,8 +5,16 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie-edge">
     <meta http-equiv="refresh" content="99999;url=../Welcome - Register.html">
+    <meta name="description" content="Author：yatayork，咬一口讓你無法忘懷!回味無窮!七夕絕對無法錯過的好滋味!六角大漢堡隆重登場!" >
+    <meta property="og:description" content="Author：yatayork，咬一口讓你無法忘懷!回味無窮!七夕絕對無法錯過的好滋味!六角大漢堡隆重登場!">
+    <meta property="og:title" content="YataYork-Rwd-Final" />
+    <link rel="icon" href="/assets/leaf-solid.svg">
+    <title>Register</title>
+
     <link rel = "stylesheet" href="css/register.css">
     <link rel="stylesheet" href="all.css">
+    
+
 </head>
 
 <body>
@@ -27,6 +35,13 @@
                         <a href="#map" >地圖</a>
                     </li>
                 </nav>
+                <label for="switch"><img src="/assets/bars-solid.svg"></label><!--漢堡按鈕圖示-->
+                <input type="checkbox" id="switch"><!--選單開關-->
+                <ul class="menu"><!--選單內容-->
+                    <li><a href="#feature">特色</a></li>
+                    <li><a href="#chef">主廚</a></li>
+                    <li><a href="#map">地圖</a></li>
+                </ul>
             </div>
             <div class="special">
                 <h1>咬一口就無法忘懷的漢堡</h1>
@@ -54,7 +69,8 @@
                                         Mauris non tempor quam, et lacinia sapien. Mauris accumsan eros eget libero posuere vulputate. Etiam elit elit, elementum sed varius at, adipiscing vitae est. Sed nec felis pellentesque, lacinia dui sed, ultricies sapien...</p>
                                 </li>
                                 <li>
-                                    <label for="mail">Email Address*</label><br>
+                                    <form action="##">
+                                        <label for="mail">Email Address*</label><br>
                                     <div class="input-container">
                                         <img src="/assets/email.svg" alt="" class="icon">
                                         <input type="email" name="mail" id="mail">
@@ -70,6 +86,8 @@
                                     </div>
                                         <a href="#">已經有帳號了?</a><br>
                                         <input type="submit" value="註冊">
+                                    </form>
+                                    
                                 </li>
                             </ul>
                         </div>

@@ -27,6 +27,7 @@
 }
 
 .box form{
+    width: 100%;
     box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);
     border-top:3px solid orange;
     padding-left: 3%;
@@ -42,18 +43,6 @@
     color: #3D1101;
     text-align: center;
 }
-
-
-
-
-form  .input-container{
-    display: -ms-flexbox; /* IE10 */
-    display: flex;
-    width: 100%;
-    position: relative;
-}
-
-
 
 form a{
     color: #ff5e45;
@@ -80,11 +69,14 @@ form label{
 }
 
 .register p{
-    width: 285px;
+    width: 100%;
 }
+
+
 
 .register li{
     display: block;
+    width: 100%;
 }
 
 .register input[type="submit"]{
@@ -104,11 +96,26 @@ input[type="submit"]:hover {
     background:#9d4414;
 }
 
-.register input[type="email"],.register input[type="password"]{
-    width: 285px;
+input[type="email"],.register input[type="password"]{
+    width: 90%;
     height: 32px;
     border: 1px solid #CCCCCC;
     box-shadow: inset 0px 1px 0px 0px #ECECEC;
     border-radius: 3px;
     padding-left:  25px;
+}
+
+
+@media(max-width:520px){
+    .register {
+        display: block;
+    }
+    .register p{
+        margin-bottom: 10px;
+    }
+
+    .register form {
+        margin-left: 20px;
+    }
+
 }

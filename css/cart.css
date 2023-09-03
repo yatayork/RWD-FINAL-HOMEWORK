@@ -5,6 +5,8 @@
     max-width: 100%;
 }
 
+
+
 .wrap aside{
     margin-left: 50px;
     margin-right: 20px;
@@ -35,6 +37,22 @@ aside a:hover{
     color: #EFE9E7;
 }
 
+aside a:active{
+    background-color: #3D1101;
+    color: #EFE9E7;
+}
+
+@media(max-width:700px){
+    .content{
+        display: block;
+    }
+
+    .wrap aside{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+}
 
 .search_checkout{
     width: 72.167%;
@@ -44,6 +62,16 @@ form{
     display: flex;
     width: 100%;
     height: 32px;
+}
+
+.searchbar{
+    width: 100%;
+    display: flex;
+}
+
+.checkbtn{
+    display: flex;
+    width: 100%;
 }
 
 input[type="search"]{
@@ -58,7 +86,7 @@ input[type="search"]:focus{
 
 .search_checkout button[type="submit"]{
     background: no-repeat url(/assets/magnifying-glass-solid.svg);
-    background-position: 7px 6px;
+    background-position: 5px 6px;
     margin-left: -1px;
     border: none;
     width: 7.83%;
@@ -73,13 +101,15 @@ input[type="search"]:focus{
 
 .content .checkout{
     color: #3d1101;
-    width: 13%;
+    width: 100%;
     height: 16px;
     margin-left: 112px;
     margin-top: 6.5px;
     margin-bottom: 6.5px;
     padding-right: 12px;
+    text-align: end;
 }
+
 
 .checkout:hover{
     transform: scale(1.1);
@@ -90,7 +120,7 @@ input[type="search"]:focus{
     background: no-repeat url(/assets/cart3D1101.svg);
     text-indent: 101%;
     overflow: hidden;
-    margin-right: 63px;
+    margin-right: 70px;
     margin-left: 17px;
 }
 
@@ -98,34 +128,57 @@ input[type="search"]:focus{
     transform: scale(1.1);
 }
 
-.menu{
+@media(max-width:700px){
+    .search_checkout{
+        width: 96%;
+        margin-left: 2%;
+        margin-right: 2%;
+    }
+
+    form{
+        display: block;
+    }
+
+    .checkbtn .cart{
+        margin-right: 0px;
+    }
+}
+
+
+
+
+.foodmenu{
+    
     max-width: 100%;
 }
 
-.menu ul{
+.foodmenu ul{
     display: flex;
     flex-wrap: wrap;
     margin-top: 26px;
 }
 
-.menu li{
+
+
+
+.foodmenu li{
     position: relative;
     text-align: center;
     margin-right: 20px;
     margin-bottom: 30px;
-    width: 28.87%;
+    width: 28%;
     background: #EFE9E7;
     box-shadow: 3px 3px 4px 0px rgba(0,0,0,0.16);   
 }
 
-.menu .tag-wrap{
+.foodmenu .tag-wrap{
     position: absolute;
     filter: drop-shadow(-1px 6px 3px rgba(50, 50, 0));
     top: -53px;
     right: -52px;
 }
 
-.menu li .sellwell{
+.foodmenu li .sellwell{
     display: flex;
     width: 90px;
     height: 90px;
@@ -140,30 +193,30 @@ input[type="search"]:focus{
 }
 
 
-.menu li img{
+.foodmenu li img{
     width: 100%;
     margin-bottom: 11px;
 }
 
-.menu h3{
+.foodmenu h3{
     font-size: 20px;
     color: #3d1101;
 }
 
-.menu h4{
+.foodmenu h4{
     font-size: 12px;
     color: #3d1101;
 }
 
 
-.menu hr{
+.foodmenu hr{
     width: 91px;
     border: 1px solid;
     margin-bottom: 20px;
 }
 
 
-.menu p{
+.foodmenu p{
     font-family: Arial, Helvetica, sans-serif;
     font-size: 20px;
     font-style: italic;
@@ -171,31 +224,50 @@ input[type="search"]:focus{
     color: #3D1101;
 }
 
-.menu button{
+.foodmenu button{
     height: 28px;
+    width: 80%;
+
     margin-top: 13px;
     border: 2px solid #FF5E45;
     border-radius: 3px;
     background: no-repeat url(/assets/cartFF5145.svg);
     background-position-y: 6px;
-    background-position-x: 35px;
+    background-position-x: 10%;
     margin-bottom: 10px;
 }
 
-.menu button a{
+.foodmenu button a{
+    width: 100%;
     color: #FF5E45;
-    padding-left: 49px;
-    padding-right: 49px;
     padding-top: 6px;
     padding-bottom: 5px;
     font-weight: 600;
 }
 
-.menu button:hover{
+.foodmenu button:hover{
     background-color:black;
     border-color: black;
 }
 
-.menu a:hover{
+.foodmenu a:hover{
     color: #EFE9E7;
+}
+
+.foodmenu a:active{
+    color: #EFE9E7;
+}
+
+
+@media(max-width:700px){
+    .foodmenu ul{
+        display: block;
+        padding-top: 10px;
+
+    }
+    .foodmenu li{
+        width: 95%;
+        margin-left: 2.5%;
+
+    }
 }
